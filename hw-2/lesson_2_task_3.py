@@ -1,10 +1,10 @@
 # 3. Сформировать из введенного числа обратное по порядку входящих в него цифр и вывести на экран.
 # Например, если введено число 3486, надо вывести 6843.
 
+
 def reverse(n: str):
-    return n[::-1]
+    return int(n[::-1])
 
 
-num = int(input('Введите число: '))
-result = reverse(str(num))
-print(int(result))
+num = input('Введите число: ')
+print(int(reverse(num)))
